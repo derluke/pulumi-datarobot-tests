@@ -1,0 +1,8 @@
+.venv
+venv
+output/
+.mypy_cache/
+.pytest_cache/
+Pulumi.*.yaml
+*.pyc
+__pycache__/
