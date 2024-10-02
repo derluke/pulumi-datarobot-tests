@@ -6,3 +6,4 @@ output/
 Pulumi.*.yaml
 *.pyc
 __pycache__/
+.env
