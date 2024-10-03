@@ -1,4 +1,4 @@
-pulumi-datarobot==0.1.46
+pulumi-datarobot==0.2.1
 pytest==8.3.3
 datarobot==3.5.2
 python-dotenv==1.0.1
