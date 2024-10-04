@@ -162,7 +162,7 @@ def test_app_source(pulumi_up, stack_name):
         "app_source_version_id": app_source_version_id,
     }
     assert cm_versions[5]["app_id"] == cm_versions[4]["app_id"]
-    assert cm_versions[5]["app_source_id"] != cm_versions[4]["app_source_id"]
+    assert cm_versions[5]["app_source_id"] == cm_versions[4]["app_source_id"]
     assert (
         cm_versions[5]["app_source_version_id"]
         != cm_versions[4]["app_source_version_id"]
